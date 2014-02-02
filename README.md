@@ -1,13 +1,16 @@
 # lemmy
 
-The project uses [Midje](https://github.com/marick/Midje/).
+This is a simple demonstration of poker logic
 
-## How to run the tests
+To run the tests, simply run
 
-`lein midje` will run all tests.
+`lein midje`
 
-`lein midje namespace.*` will run only tests beginning with "namespace.".
+To interact with the application run
 
-`lein midje :autotest` will run all the tests indefinitely. It sets up a
-watcher on the code files. If they change, only the relevant tests will be
-run again.
+`lein run`
+
+Interesting source can be found at:
+
+[source] (src/lemmy/core.clj)
+[tests] (test/lemmy/t_core.clj)
